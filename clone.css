@@ -1,0 +1,140 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+.size{
+    size: 10px;
+}
+  /* Header */
+  .header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #b5e80d;
+    width: 100%;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.2);
+  }
+  
+  .subtitle {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #999;
+  }
+  
+  .social-icons img {
+    width: 20px;
+    margin: 0 10px;
+    vertical-align: middle;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+    color: red;
+  }
+  
+  /* Main Content */
+  .recent-posts {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .recent-posts h2 {
+    margin-bottom: 20px;
+  }
+  
+  .post {
+    border: 1px solid #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #111;
+    text-align: left;
+  }
+
+  .post:hover{
+    border: 1px solid white;
+  }
+  
+  .post h3 {
+    margin: 0 0 10px;
+  }
+  
+  .post p {
+    color: #ccc;
+  }
+  
+  .post small {
+    display: block;
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  .tags {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .tags span {
+    background-color: #222;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+  }
+
+  /* Footer */
+.custom-footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #333;
+    font-size: 14px;
+    color: #aaa;
+    width: 100%;
+    background-color: #000;
+  }
+  
+  .custom-footer a {
+    color: #888;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .custom-footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .custom-footer p {
+    margin: 0;
+    line-height: 1.5;
+  }
