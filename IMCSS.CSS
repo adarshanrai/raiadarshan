@@ -1,0 +1,187 @@
+.container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-inline: auto;
+    margin-top: 100px;
+   gap: 10%;
+    text-align: center;
+  }
+  
+
+.fonder{
+  text-align: center;
+  
+  font-size: 30px;
+}
+
+
+
+a{
+text-decoration: none;
+ }
+
+.meta{
+  display: flex;
+
+text-align: start;
+
+
+flex-direction: column;
+text-decoration: none;
+font-size: 20px;  
+}
+
+
+
+
+.icon{
+  margin-right: auto;
+  color: black;
+}
+
+.icon_ivan{
+  margin-inline: 2rem;
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(45, 15, 243);
+font-weight: bold;
+text-decoration: none;
+
+}
+.icon_about{
+  margin-inline: 1rem;
+    margin-top: 30px;
+    font-size: 25px;
+    color: rgb(19, 43, 224);
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-decoration: none;
+
+}
+.icon_now{
+  margin-inline: 1rem;
+    margin-top: 30px;
+    font-size: 25px;
+    color: rgb(45, 15, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+
+}
+.icon_contact{
+  margin-inline: 1rem;
+    margin-top: 30px;
+    font-size: 25px;
+    color: rgb(32, 10, 224);
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+}
+
+.notes{
+text-align: center;
+text-decoration: none;
+font-size: 30px;
+flex-direction: row;
+}
+ 
+.inner-div{
+  display: flex;
+  gap:10px;
+  
+}
+
+p{
+  margin:0;
+}
+
+.inner-inner{
+  align-self: center;
+}
+
+
+.vibe{
+  display: flex;
+  gap: 10px
+}
+
+.class{
+  align-self: center;
+}
+
+.holder{
+display: flex;
+gap: 10px;
+
+}
+
+.older{
+  align-self: center;
+}
+
+.review{
+  display: flex;
+  gap: 10px;
+}
+
+.pull{
+  align-self: center;
+}
+
+.timer{
+  display: flex;
+  gap: 10px;
+}
+
+.clock{
+  align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
