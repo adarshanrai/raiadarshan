@@ -1,0 +1,163 @@
+.container{
+    display: flex ;
+width: 500px;
+
+
+}
+
+
+
+
+.first-div {
+    display: flex;
+    gap: 1%;
+    padding: 5PX;
+    height: 600px;
+    width: 2000px;
+    border : 2px solid black;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-div-red {
+    border: 1px solid red;
+    background-color: #ff0000;
+    width: 100px;
+    height: 90px;
+    
+}
+
+.first-div-green {
+    border: 1px solid green;
+    background-color: green;
+    height: 90px;
+    width: 100px;
+}
+
+.First-div-blue {
+    border: 1px solid blue;
+    background-color: blue;
+    height: 90px;
+    width: 100px;
+}
+
+
+
+
+.second-div {
+    display: flex;
+    gap: 1%;
+    padding: 5PX;
+    height: 600PX;
+    width: 500px;
+    border : 2px solid black;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.second-div-red {
+    border: 1px solid red;
+    background-color: red;
+    width: 100px;
+    height: 90px;
+}
+
+.second-div-green {
+    border: 1px solid green;
+    background-color: green;
+    height: 90px;
+    width: 100px;
+    
+}
+
+.second-div-blue {
+    border: 1px solid blue;
+    background-color: blue;
+    height: 90px;
+    width: 100px;
+    
+}
+
+
+
+
+
+.third-div {
+    display: flex;
+    gap: 1%;
+    padding: 5PX;
+    height: 600PX;
+    width: 2000px;
+    border : 2px solid black;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+}
+
+.third-div-red {
+    border: 1px solid red;
+    background-color: red;
+    width: 100px;
+    height: 90px;
+}
+
+.third-div-green {
+    border: 1px solid green;
+    background-color: green;
+    height: 90px;
+    width: 100px;
+    
+}
+
+.third-div-blue {
+    border: 1px solid blue;
+    background-color: blue;
+    height: 90px;
+    width: 100px;
+    
+}
+
+
+
+
+.fourth-div {
+    display: flex;
+    gap: 15%;
+    padding: 5PX;
+    height: 600PX;
+    width: 2000px;
+    border :   2px solid black;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.fourth-div-red {
+    border: 1px solid red;
+    background-color: red;
+    width: 100px;
+    height: 90px;
+}
+
+.fourth-div-green {
+    border: 1px solid green;
+    background-color: green;
+    height: 90px;
+    width: 100px;
+    
+}
+.fourth-div-blue {
+    border: 1px solid rgb(6, 12, 193);
+    background-color: rgb(11, 11, 220);
+    height: 90px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
