@@ -1,0 +1,26 @@
+.container {
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: end;
+    grid-template-areas:
+        "h h a a a";
+        
+
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10PX;
+
+
+}
+
+.box2 {
+    background-image: url('https://i.pinimg.com/originals/59/b2/34/59b2349684d902730f710b65f05ecb80.gif'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
