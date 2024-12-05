@@ -1,0 +1,39 @@
+.container{
+    height:100vh;
+  display: grid;
+  grid-template-rows: repeat(4, 100px);
+  grid-template-columns: repeat(5, 100px);
+  gap: 10px;
+  padding: 20px;
+  grid-template-areas: 
+  "H H H H H"
+  "M D D D D"
+  "N N N N N"
+  
+}
+
+.box1{
+  background-color: rgb(153, 0, 255);
+  border-radius: 5px;
+  grid-area: H;
+}
+
+.box2{
+  background-color: rgb(231, 9, 113);
+  border-radius: 5px;
+  grid-area:M;
+  
+}
+
+.box3{
+  background-color:red;
+  border-radius: 5px;
+  grid-area: D;
+  width:100%
+}
+
+.box4{
+  background-color:rgb(208, 234, 9);
+  border-radius: 5px;
+  grid-area: N;
+}

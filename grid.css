@@ -1,0 +1,33 @@
+.container{
+    height: 100vh;
+    display:grid;
+    grid-template-rows: 20% 20% 20% 20%;
+    grid-template-columns: 20% 20% 20%;
+    gap: 2%;
+     }
+
+   .box1{
+    background-color: brown;
+   }  
+   
+
+
+.box2{
+    background-color: rgb(218, 17, 171);
+}
+
+.box3{
+    background-color: rgb(238, 227, 13);
+}
+
+.box4{
+    background-color: rgb(25, 122, 200);
+}
+
+.box5{
+    background-color: rgb(218, 37, 17);
+}
+
+.box6{
+    background-color: rgb(51, 192, 15);
+}

@@ -1,0 +1,37 @@
+.container{
+    height:100vh;
+  display: grid;
+  grid-template-rows: repeat(2, 100px);
+  grid-template-columns: repeat(3, 30%);
+  gap: 10px;
+  padding: 20px;
+  grid-template-areas: 
+  "H H A "
+  "F S A"
+  
+  
+}
+
+.box1{
+  background-color: rgba(232, 15, 15, 0.79);
+  border-radius: 5px;
+  grid-area: H;
+}
+
+.box2{
+  background-color: orange;
+  border-radius: 5px;
+  grid-area: A;
+}
+
+.box3{
+  background-color:rgb(4, 174, 112);
+  border-radius: 5px;
+  grid-area: F;
+}
+
+.box4{
+  background-color:rgb(4, 174, 112);
+  border-radius: 5px;
+  grid-area: S;
+}
