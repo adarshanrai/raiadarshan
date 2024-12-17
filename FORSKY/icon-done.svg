@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Slice</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="done" transform="translate(7.000000, 6.000000)" stroke="#0066FF" stroke-width="2">
+            <ellipse id="Oval" cx="29" cy="28.839779" rx="29" ry="28.839779"></ellipse>
+            <ellipse id="Oval" cx="29" cy="28.839779" rx="23.2" ry="23.0718232"></ellipse>
+            <path d="M29,10.5745856 L29,13.7790055" id="Line" stroke-linecap="round"></path>
+            <path d="M36.0888889,11.8563536 L34.8,15.0607735" id="Line" stroke-linecap="round"></path>
+            <path d="M42.2111111,16.0220994 L39.6333333,18.2651934" id="Line" stroke-linecap="round"></path>
+            <path d="M46.0777778,22.1104972 L42.8555556,23.0718232" id="Line" stroke-linecap="round"></path>
+            <path d="M45.9166667,27.2277778 L45.9166667,30.7722222" id="Line" stroke-linecap="round" transform="translate(45.916667, 29.000000) rotate(90.000000) translate(-45.916667, -29.000000) "></path>
+            <path d="M46.0777778,36.2099448 L43.1777778,34.6077348" id="Line" stroke-linecap="round"></path>
+            <path d="M42.2111111,41.9779006 L39.6333333,39.7348066" id="Line" stroke-linecap="round"></path>
+            <path d="M29,44.2209945 L29,47.4254144" id="Line" stroke-linecap="round" transform="translate(29.000000, 45.823204) rotate(180.000000) translate(-29.000000, -45.823204) "></path>
+            <path d="M12.0833333,27.2277778 L12.0833333,30.7722222" id="Line" stroke-linecap="round" transform="translate(12.083333, 29.000000) rotate(270.000000) translate(-12.083333, -29.000000) "></path>
+            <path d="M29,27.558011 L29,18.1782832" id="Line-2" stroke-linecap="round"></path>
+            <ellipse id="Oval" cx="29" cy="29.160221" rx="1.61111111" ry="1.60220994"></ellipse>
+            <path d="M11.8371967,51.9116022 L6.05509793,57.6617557" id="Line-4" stroke-linecap="round"></path>
+            <path d="M52.7594189,51.9116022 L46.9773201,57.6617557" id="Line-4-Copy" stroke-linecap="round" transform="translate(49.783333, 54.955801) scale(-1, 1) translate(-49.783333, -54.955801) "></path>
+            <path d="M38.3444444,38.4530387 L29.9666667,30.441989" id="Line-5" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>
