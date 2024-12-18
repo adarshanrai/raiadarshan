@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #111;
+    color: #fff;
+    line-height: 1.5;
+}
+
+/* Container Grid */
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 40px;
+}
+
+/* Logo Section */
+.logo-section {
+    grid-column: span 12;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo h1 {
+    font-size: 32px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.logo-icon {
+    display: inline-block;
+    background: red;
+    height: 20px;
+    width: 40px;
+    clip-path: polygon(100% 0%, 50% 100%, 0% 0%);
+}
+
+/* Message Section */
+.message {
+    grid-column: span 12;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 100px;
+    font-weight: 300;
+}
+
+.message h2 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.message h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.message .highlight {
+    color: #fff;
+}
+
+/* Footer Section */
+.footer {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    
+}
+
+.column h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.column a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.column a:hover {
+    color: #fff;
+}
+
+/* Bottom Bar */
+.bottom-bar {
+    grid-column: span 12;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #333;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.bottom-bar a {
+    color: #bbb;
+    text-decoration: underline;
+    margin-left: 10px;
+    background-color: #111;
+}
+
+.bottom-bar a:hover {
+color:#fff;
+}

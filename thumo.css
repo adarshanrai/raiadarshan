@@ -1,0 +1,75 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.press-card:hover{
+    scale: 1.1;
+    transition: 1s ease;
+}
+
+.press-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.press-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.press-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.press-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.press-date {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.press-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.press-card p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.press-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.view-all {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #0073e6;
+    font-weight:bold;
+}
