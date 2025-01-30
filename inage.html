@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="img.css">
+    <title>Image Changer</title>
+</head>
+<body>
+    <section>
+    <img class="cn " id="image" src="https://imgs.search.brave.com/lMDEm5706VYZcpAMMOPkwCHunSWR0S1paRiaNM77-Tg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA3LzQ0LzcyLzE3/LzM2MF9GXzc0NDcy/MTc5N196UjFEZzlt/RUlTdDBBRW10Vld3/ZWZrR21ucG5QdkZQ/QS5qcGc" alt="grand blue" style="max-width: 500px; display: block; margin-bottom: 20px;">
+    <input type="text" class="red" name="links" placeholder="Enter image URL" id="imageInput">
+    <input type="button" class="d" name="btn" value="Enter" onclick="changeImage()">
+    
+    <script>
+        function changeImage() {
+          
+            const newImageUrl = document.getElementById('imageInput').value;
+            
+           
+            const imageElement = document.getElementById('image');
+            
+          
+            if (newImageUrl) {
+          
+                imageElement.src = newImageUrl;
+            } else {
+              
+                alert("Not a valid link.");
+            }
+        }
+
+    </script>
+    </section>
+</body>
+</html>

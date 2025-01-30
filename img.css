@@ -1,0 +1,34 @@
+.red {
+        width: 320px;
+        padding: 10px;
+        border: 3px solid  #f6e205;;
+        border-radius: 5px;
+        font-size: 16px;
+       
+}
+
+.red:hover{
+    border: #f6e205;
+    background-color:  #efe527;
+}
+.d {
+    padding: 10px 20px;
+    background-color:  #f6e205;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid #f6e205;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.d:hover {
+    background-color:  #f6e205;;
+    transform: scale(1.05);
+}
+
+
+.cn{
+    border: 2px solid  #f6e205;
+}
+
