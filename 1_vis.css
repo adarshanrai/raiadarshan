@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body {
+   
+    background-color: rgba(0, 0, 0, 0.8); 
+
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+        padding: 20px;
+        text-align: center;
+        font-family: "Lilita One", serif;
+        font-weight: 400;
+        font-style: normal;
+        height: 107px;
+        
+
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 5px 0 20px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #120101;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 9em;
+    height: 3em;
+    border-radius: 10em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    text-decoration: none;
+    align-items: center;
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-size: 0.5rem;
+    
+}
+
+
+
+.btn::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #ececf3, #9c0af1 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.btn:hover::before {
+    width: 9em;
+}
+
+.btn:hover {
+    text-decoration: none; 
+}
+
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.box {
+    background-image: linear-gradient(to bottom right, #0100EC, #FB36F4);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+      transition: transform 0.5s ease; 
+}
+
+.box p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.box:hover {
+    transform: translateY(-20px);
+}
+
+
+footer {
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+footer p {
+    font-style: italic;
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: rgb(12, 1, 1);
+    text-align: center;
+        font-family: "Lilita One", serif;
+        font-weight: 400;
+        font-style: normal;
+       
+}
+
+.cursor {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, #0100EC, #FB36F4);
+    box-shadow: 0 0 15px #f5f5f9, 0 0 25px #e8e3e7, 0 0 35px #FB36F4;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.05s linear;
+    animation: glow 1.5s infinite alternate;
+}
+
+
+
+
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+    padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .box-container {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 480px) {
+    .box-container {
+        grid-template-columns: 1fr; 
+        gap: 15px; /
+    }
+}
