@@ -45,7 +45,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #120101;
     text-decoration: none;
     font-size: 1.2em;
 }
@@ -140,12 +140,22 @@ footer p {
     font-size: 1.2em;
 }
 
-footer blockquote {
+footer p {
     font-style: italic;
     font-size: 1.5em;
     margin: 10px 0;
-    color: #ddd;
+    color: rgb(12, 1, 1);
+    text-align: center;
+        font-family: "Lilita One", serif;
+        font-weight: 400;
+        font-style: normal;
+        height: 107px;
 }
+
+
+
+
+
 .box-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
