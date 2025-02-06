@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f8ff;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            width: 300px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Click to Enter Information</h2>
+        <button onclick="getUserInfo()">Click Me</button>
+    </div>
+
+    <script>
+        function getUserInfo() {
+            let username = prompt("What is your name?");
+            let lastname = prompt("What is your last name?");
+            alert(`Hello, ${username} ${lastname}! Welcome to JavaScript!`);
+            
+            let hobbies = prompt("What are your hobbies?");
+            alert(`Ahh!, ${hobbies}. Nice choice!`);
+
+            let grade = prompt("Enter your score");
+
+            if (grade >= 90) {
+                alert("Grade A");
+            } else if (grade >= 80) {
+                alert("Grade B");
+            } else if (grade >= 70) {
+                alert("Grade C");
+            } else {
+                alert("You can improve, keep going!");
+            }
+        }
+    </script>
+<script src="even.js"></script>
+</body>
+</html>
