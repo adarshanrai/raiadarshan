@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Source code</title>
+    <link rel="stylesheet" href="src.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Congratulations! on finding the hidden page</h1>
+            <h2>Here you can find the source code of the main page</h2>
+        </header>
+
+        <div class="content">
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;My Projects&lt;/title&gt;
+    &lt;link rel="stylesheet" href="1_vis.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;h1&gt;WEB TECHNOLOGY LOOBOOK&lt;/h1&gt;
+        &lt;P&gt;Adarshan Rai&lt;/P&gt;
+        &lt;nav&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="aboutme.html"&gt;About me&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#projects"&gt;Projects&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://www.linkedin.com/in/adarshan-rai-a09798324/"&gt;linkedin&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="https://github.com/adarshanrai"&gt;Github&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/nav&gt;
+    &lt;/header&gt;
+    
+    &lt;section id="projects"&gt;
+        &lt;div class="box-container"&gt;
+            &lt;div class="box"&gt;
+                &lt;p&gt;First Page&lt;/p&gt;
+                &lt;a href="FIRST PAGE/firstpage.html"&gt; &lt;button class="btn"&gt;Open&lt;/button&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="box"&gt;
+                &lt;p&gt;P Banks&lt;/p&gt;
+                &lt;a href="p banks/p banks.html"&gt; &lt;button class="btn"&gt;Open&lt;/button&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="box"&gt;
+                &lt;p&gt;Form&lt;/p&gt;
+                &lt;a href="password/password.html"&gt; &lt;button class="btn"&gt;Open&lt;/button&gt;&lt;/a&gt;
+            &lt;/div&gt;
+           
+            
+
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+ &lt; footer &gt;
+        &lt;p&gt;"My &lt;a href="sourcecode.html"&gt;code&lt;/a&gt; doesn’t have bugs, it just develops unexpected features."&lt;/p&gt;
+     &lt; footer &gt
+
+</body>
+</html>
+</code></pre>
+
+            <pre><code>
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    padding: 20px;
+    text-align: center;
+    font-family: "Lilita One", serif;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #120101;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.2em;
+}
+            </code></pre>
+
+            <pre><code>
+const cursor = document.querySelector(".cursor");
+document.addEventListener("mousemove", (e) => {
+cursor.style.left = `${e.clientX}px`;
+cursor.style.top = `${e.clientY}px`;
+});
+            </code></pre>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+
+pre code {
+    color: cyan; 
+    font-family: "Courier New", monospace; 
+    font-size: 1.1rem; 
+    
+    padding: 15px;
+    border-radius: 10px; 
+     
+    
+}
+
+
+pre {
+    border: 2px solid rgb(200, 0, 255); 
+    border-radius: 10px; 
+    padding: 10px;
+    margin-top: 20px; 
+    box-shadow: 0 0 8px rgb(208, 12, 202), 0 0 15px rgb(166, 6, 219); 
+}
+
+.container {
+    padding: 20px;
+}
+
+header, footer {
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #f3ecf3;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: cyan; /* Cyan links */
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+body {
+    background-color: rgba(0, 0, 0, 0.8); 
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.box {
+    background-image: linear-gradient(to bottom right, #0100EC, #FB36F4);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    transition: transform 0.5s ease;
+    box-shadow: 0 0 8px #00FFFF, 0 0 15px #FB36F4, 0 0 20px #6A0DAD, 0 0 25px rgba(106, 13, 173, 0.6);
+}
+
+.box:hover {
+    transform: translateY(-20px);
+}
