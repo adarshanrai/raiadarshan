@@ -1,0 +1,210 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0a0a0a;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+/* Background Animation */
+body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(0, 255, 255, 0.2) 0%, transparent 70%);
+  animation: pulse 5s infinite alternate ease-in-out;
+  z-index: -1;
+}
+
+@keyframes pulse {
+  from {
+      transform: scale(1);
+      opacity: 0.6;
+  }
+  to {
+      transform: scale(1.2);
+      opacity: 0.9;
+  }
+}
+
+/* Neon Text Effect */
+h1, h2, footer p {
+  text-shadow: 0 0 10px cyan, 0 0 20px blue, 0 0 40px cyan;
+  color: cyan;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2{
+  margin-top: 22px;
+}
+
+p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/* Wrapper */
+.wrapper {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  perspective: 1200px;
+  
+  
+}
+
+/* Inner Rotating Cards */
+.inner {
+  --w: 160px;
+  --h: 200px;
+  --translateZ: calc((var(--w) + var(--h)) * 0.70);
+  --rotateX: -10deg;
+  --perspective: 1200px;
+
+  position: absolute;
+  width: var(--w);
+  height: var(--h);
+  transform-style: preserve-3d;
+  animation: rotating 20s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+      transform: perspective(var(--perspective)) rotateX(var(--rotateX)) rotateY(0);
+  }
+  to {
+      transform: perspective(var(--perspective)) rotateX(var(--rotateX)) rotateY(360deg);
+  }
+}
+
+/* Cards */
+.card {
+  position: absolute;
+  width: var(--w);
+  height: var(--h);
+  border-radius: 15px;
+  overflow: hidden;
+  transform: rotateY(calc(360deg / 6 * var(--index))) translateZ(var(--translateZ));
+  background: rgba(var(--color-card), 0.2);
+  box-shadow: 0 0 15px rgba(var(--color-card), 0.7);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Image Styling */
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Hover Effects */
+.card:hover {
+  transform: rotateY(calc(360deg / 6 * var(--index))) 
+             translateZ(calc(var(--translateZ) + 25px)) 
+             scale(1.04); /* Reduced scale */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
+
+/* Game Title on Hover */
+.game-title {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover .game-title {
+  opacity: 0.7;
+  transform: translateY(-7px);
+}  
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 15px;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+@media (max-width: 1024px) {
+  .inner {
+    --w: 140px;
+    --h: 180px;
+    --translateZ: calc((var(--w) + var(--h)) * 0.65);
+  }
+
+  .card {
+    box-shadow: 0 0 10px rgba(var(--color-card), 0.5);
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .inner {
+    --w: 120px;
+    --h: 160px;
+    --translateZ: calc((var(--w) + var(--h)) * 0.6);
+    animation-duration: 25s; /* Slower rotation for mobile */
+  }
+
+  .game-title {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}
+
+/* Small Mobile Screens */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .inner {
+    --w: 100px;
+    --h: 140px;
+    --translateZ: calc((var(--w) + var(--h)) * 0.5);
+  }
+
+  .card:hover {
+    transform: rotateY(calc(360deg / 6 * var(--index))) translateZ(var(--translateZ));
+  }
+
+  .game-title {
+    font-size: 12px;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+}
