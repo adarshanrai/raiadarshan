@@ -1,0 +1,71 @@
+/* Global styles */
+body {
+background-color: antiquewhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+/* Card Container Styles */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Card Styles */
+.card {
+    width: 250px;
+    height: 350px;
+    background-color: rgba(194, 108, 125, 0.8);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Card expands when hovered */
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Card Heading */
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+/* Link styles */
+.card-content a {
+    color: #842fc4;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: rgba(0, 195, 138, 0.8);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.card-content a:hover {
+    background-color: #ff5722;
+}

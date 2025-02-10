@@ -1,0 +1,52 @@
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.first-div, .second-div, .third-div, .fourth-div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+    width: 400px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.first-div { justify-content: flex-start; } /* Items aligned to start */
+.second-div { justify-content: center; } /* Items centered */
+.third-div { justify-content: flex-end; } /* Items aligned to end */
+.fourth-div { justify-content: space-between; } /* Items evenly spread */
+
+.first-div-red, .second-div-red, .third-div-red, .fourth-div-red {
+    background-color: red;
+}
+.first-div-green, .second-div-green, .third-div-green, .fourth-div-green {
+    background-color: green;
+}
+.first-div-blue, .second-div-blue, .third-div-blue, .fourth-div-blue {
+    background-color: blue;
+}
+
+.first-div-red, .first-div-green, .first-div-blue,
+.second-div-red, .second-div-green, .second-div-blue,
+.third-div-red, .third-div-green, .third-div-blue,
+.fourth-div-red, .fourth-div-green, .fourth-div-blue {
+    width: 100px;
+    height: 90px;
+    border: 2px solid white;
+}
