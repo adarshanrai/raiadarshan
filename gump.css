@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.pinimg.com/736x/98/aa/fc/98aafcac8e749b05441e122fa1d7e358.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.gallery {
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.7); 
+    margin: 2rem auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #d4cdcd;
+    margin-top: 0.5rem;
+    font-style: italic;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.images img {
+    width: 380px;
+    height: 280px;
+    object-fit: cover;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.images img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #f1f1f1;
+    line-height: 1.6;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+footer {
+    padding: 1rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+}
