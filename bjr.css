@@ -1,0 +1,127 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.pinimg.com/originals/7e/f3/8f/7ef38f1c77a41a42d9bcc80cc7ef8ba6.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #222;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.gallery {
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.0); 
+    margin: 2rem auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    max-width: 900px;
+    width: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #111;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 1.5rem;
+    color: #070707;
+    margin-top: 0.5rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+
+.images img {
+    flex: 1;
+    max-width: 30%;
+    height: auto;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.images img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.description {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    color: #000000;
+    line-height: 1.8;
+    text-align: center;
+}
+
+
+.description p {
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .gallery {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images img {
+        max-width: 80%; /* Increase width of images on smaller screens */
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+}

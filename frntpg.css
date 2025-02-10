@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url("https://i.pinimg.com/originals/f8/42/6b/f8426bf4f6892dfed16b2e0f583d5670.gif"); /* Sky blue gradient */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-image:url("https://i.pinimg.com/originals/f8/42/6b/f8426bf4f6892dfed16b2e0f583d5670.gif"); /* Sky blue gradient */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+    line-height: 1.2; 
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+    font-style: italic; 
+}
+
+.cta-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 30px;
+    background-color: #00bcd4; /* Primary button color */
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 20px; /* Space above the button */
+}
+
+.cta-button:hover {
+    background-color: #26c6da; 
+    transform: translateY(-2px);
+}
+
+.about {
+    text-align: center;
+    padding: 30px;
+    margin: 20px auto;
+    
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Limit width for better readability */
+}
+
+.about h2 {
+    color: #0099cc; /* Header color */
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 1.1em;
+    line-height: 1.5; 
+}
+
+footer {
+    text-align: center;          
+    padding: 20px;              
+    
+    width: 100%;                
+    margin-top: 40px;           
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #fff;                /* Link color set to white */
+    text-decoration: none;       /* Removes the underline from links */
+}
+
+footer a:hover {
+    text-decoration: underline;  /* Underline effect on hover */
+}
